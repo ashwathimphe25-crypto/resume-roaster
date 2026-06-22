@@ -14,7 +14,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(cors({
-  origin: "http://localhost:5173"
+  origin: ['http://localhost:5173', 'https://resume-roaster-frontend-lime.vercel.app']
 }));
 
 app.use(express.json());
